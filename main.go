@@ -14,11 +14,11 @@ func main() {
 		FirstName: "Benjamin",
 		LastName:  "Franklin",
 		Address: common.Address{
-			Zip5:    11111,
 			Street1: "1600 Pennyslvania Avenue",
 			Street2: "PO Box: The WhiteHouse",
 			City:    "Washington",
 			State:   "DC",
+			Zip5:    11111,
 		},
 	}
 
@@ -26,5 +26,5 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Print(string(b))
+	fmt.Println(string(b))
 }
